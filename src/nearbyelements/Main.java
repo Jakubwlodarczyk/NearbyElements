@@ -14,14 +14,10 @@ public class Main {
                 { 1, 3, 5, 7 },
                 { 321, 320, 32, 3, 41241, -11, -12, -13, -66, -688 }
         };
-
         System.out.println(Arrays.toString(nearby(0, 2, 2)));
         System.out.println(Arrays.toString(nearby(1, 0, 1)));
         System.out.println(Arrays.toString(nearby(1, 3, 5)));
-
     }
-
-
 
     private static int[] nearby(int x, int y, int range) {
         int fromIndex;
